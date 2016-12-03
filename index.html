@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Minesweeper </title>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="lib/cutestrap/dist/css/cutestrap.min.css">
+  <script src="lib/underscore/underscore.js"></script>
+
+</head>
+<body>
+  <div class="wrapper-small ta-center">
+    <form class="game-setup">
+      <section class="grid">
+        <div class="column--heavy">
+          How many rows/columns?
+        </div>
+        <div class="column--light">
+          <label class="textfield">
+            
+            <input type="text" class="input nboard" value="10" placeholder="10" />
+          </label>
+        </div>
+      </section>
+      <section class="grid">
+        <div class="column--heavy">
+          How many mines?
+        </div>
+        <div class="column--light">
+          <label class="textfield">
+            <input type="text" class="input mines" value="10" placeholder="10">
+          <label>
+        </div>
+      </section>
+
+      <input type="button" class="btn new-game" value="New Game">
+    </form>
+
+    <section class="header">
+      <div><span class="num-mines">0</span> mines left</div>
+      <div class="game-notes"></div>
+    </section>
+    <div id="board"></div>
+
+    <section class="grid">
+      <div class="column">
+        How many games?
+      </div>
+      <div class="column--light">
+        <label class="textfield">
+          <input type="text" class="input n-games" value="1" placeholder="10">
+        </label>
+      </div>
+      <div>        
+        <input type="button" class="btn solver" value="Solve">
+      </div>
+    </section>
+
+    <div id="stats"></div>
+  </div>
+  <script type="text/javascript" src="app.js"></script>
+  
+</body>
+</html>
