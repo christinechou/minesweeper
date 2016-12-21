@@ -1,0 +1,88 @@
+.container {
+  width:400px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.row {
+  clear: both;
+}
+
+.covered {
+  background-image: url(http://i.imgur.com/HM1e3Tbb.jpg);
+  background-size: 28px; 
+  background-position:right 0px; 
+  background-repeat:no-repeat; 
+  height:26px;
+  min-width: 26px;
+}
+.uncovered {
+  background-size:28px; 
+  background-position:right 0px; 
+  background-repeat:no-repeat; 
+  height:26px;
+  min-width: 26px;
+}
+.empty {
+  background-image: url(http://i.imgur.com/Flqdqi1b.jpg);
+}
+.one {
+  background-image: url(http://i.imgur.com/bM8oExob.jpg);
+}
+.two {
+  background-image: url(http://i.imgur.com/bQKSbqYb.jpg);
+}
+.three {
+  background-image: url(http://i.imgur.com/5jNcEeVb.jpg);
+}
+.four {
+  background-image: url(http://i.imgur.com/BnxjHgHb.jpg);
+}
+.five {
+  background-image: url(http://i.imgur.com/RaFrMYcb.jpg);
+}
+.six {
+  background-image: url(http://i.imgur.com/GlwQOy0b.jpg);
+}
+.seven {
+  background-image: url(http://i.imgur.com/GlwQOy0b.jpg);
+}
+.eight {
+  background-image: url(http://i.imgur.com/8ngsVa8b.jpg);
+}
+.nine {
+  background-image: url(http://i.imgur.com/lJ8P1wab.jpg);
+}
+
+.select select, .textfield input, .textfield textarea {
+  padding: 0 !important;
+}
+.btn {
+  height: 2.8rem !important;
+  line-height: 2.8rem !important;
+}
+
+.game-notes {
+  height: 4rem;
+}
+
+
+table {
+  width: auto !important;
+  margin: 20px auto;
+  border-radius: 0px !important;
+  box-shadow: 0 0 0 6px #9a9a9a,
+              inset 0 1px 0 0 red;
+  border-top: 4px solid #555555;
+  border-right: 4px solid #555555;
+  border-left: 4px solid #bbbbbb;
+  border-bottom: 4px solid #bbbbbb;
+}
+
+table td, table th {
+  padding: 0 0 !important;
+}
+
+.text-red {
+  color: red;
+}
